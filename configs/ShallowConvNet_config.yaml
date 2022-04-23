@@ -1,0 +1,12 @@
+name: ShallowConvNet
+n_classes: 4
+
+init_weight_method: 'xavier_uni'
+
+F1: 40
+T1: 25
+F2: 40
+P1_T: 75
+P1_S: 15
+drop_out: 0.5
+pool_mode: 'mean'

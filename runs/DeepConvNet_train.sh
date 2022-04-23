@@ -1,0 +1,1 @@
+python main.py --seed=1120 --all_subject --summary --model=DeepConvNet --batch_size=72 --epochs=700 -lr=2e-03 -wd=2e-03 -sch=exp --gamma=0.995 --save_dir=train  --device=0 --criterion=CEE

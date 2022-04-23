@@ -1,0 +1,2 @@
+python main.py --seed=1120 --all_subject --summary --model=SimSiam --batch_size=216 --epochs=1000 -lr=7e-4 -wd=2e-03 -sch=cosine --T_max=50 --eta_min=1e-04 --save_dir=train  --device=1 --criterion=CEE
+python main.py --seed=1120 --all_subject --summary --model=SimSiam --batch_size=216 --epochs=1000 -lr=1e-3 -wd=1e-02 -sch=exp --gamma=0.995 --save_dir=train  --device=2 --criterion=CEE
